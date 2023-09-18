@@ -3,7 +3,7 @@
     <div class="contact___text">
       <h2 class="header___text contact___main___text">
         Want to give us a brief of your project? <br />
-        <span class="channel___orange">Pricing starts at $5K</span>
+        <span class="channel___orange">Pricing starts at $1K</span>
       </h2>
       <div class="contact___links">
         <a href="mailto:offedgestudio@gmail.com">

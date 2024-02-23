@@ -3,6 +3,10 @@
     <div class="contain___elements">
       <h1 class="header___text project___head">Selected Projects</h1>
       <div class="projects___list">
+<<<<<<< HEAD
+=======
+        <Project title="Model88E" category="Fashion" link="https://model88e.com" image="/model88e-logotype.jpg" />
+>>>>>>> cee899f (project and style update to the site)
         <Project
           title="Adam Small"
           category="Fashion"

@@ -1,10 +1,17 @@
 <template>
   <section class="___section nav___flex">
     <div class="nav___div">
+<<<<<<< HEAD
       <a class="nav___link header___text" @click="openContacts">
         <h1>Contacts</h1>
       </a>
       <a class="nav___link header___text" @click="openProjects">
+=======
+      <a class="nav___link pointer header___text" @click="openContacts">
+        <h1>Contact</h1>
+      </a>
+      <a class="nav___link pointer header___text" @click="openProjects">
+>>>>>>> cee899f (project and style update to the site)
         <h1>Projects</h1>
       </a>
     </div>

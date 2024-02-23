@@ -34,8 +34,14 @@
   transition: color 0.3s cubic-bezier(0.65, 0, 0.35, 1);
 }
 
+<<<<<<< HEAD
 .nav___link {
   color: #a19898;
+=======
+.nav___div {
+  display: flex;
+  gap: 20px;
+>>>>>>> cee899f (project and style update to the site)
 }
 
 .nav___link h1,
@@ -45,6 +51,7 @@
 }
 
 @media (min-width: 900px) {
+<<<<<<< HEAD
   .nav___link h1 {
     font-size: 2.25rem;
   }
@@ -53,6 +60,21 @@
 .header___text {
   font-family: Inter-Bold, sans-serif;
   font-size: 1.45rem;
+=======
+  .nav___link h1,
+  .___time {
+    font-size: 1.85rem;
+  }
+}
+
+.space {
+  margin-right: 80px;
+}
+
+.header___text {
+  font-family: Inter-Bold, sans-serif;
+  font-size: 1.25rem;
+>>>>>>> cee899f (project and style update to the site)
   letter-spacing: -0.03em;
   line-height: 98.52%;
 }
@@ -104,10 +126,22 @@
 
 @media (min-width: 900px) {
   .header___text {
+<<<<<<< HEAD
     font-size: 2.2rem;
   }
 }
 
+=======
+    font-size: 1.85rem;
+  }
+}
+
+.pointer {
+  cursor: pointer;
+  user-select: none;
+}
+
+>>>>>>> cee899f (project and style update to the site)
 .___section.about {
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
@@ -172,7 +206,11 @@
 }
 
 .header___text.smaller {
+<<<<<<< HEAD
   font-size: 1.4rem;
+=======
+  font-size: 1.3rem;
+>>>>>>> cee899f (project and style update to the site)
 }
 
 .header___text.colored {
@@ -181,7 +219,11 @@
 
 @media (min-width: 900px) {
   .header___text.smaller {
+<<<<<<< HEAD
     font-size: 2rem;
+=======
+    font-size: 1.3rem;
+>>>>>>> cee899f (project and style update to the site)
   }
 }
 
@@ -195,6 +237,12 @@
 
 .contact___main___text {
   margin-bottom: 0.75rem;
+<<<<<<< HEAD
+=======
+  font-size: 1.4rem;
+  font-weight: medium;
+  color: #a19898;
+>>>>>>> cee899f (project and style update to the site)
 }
 
 .contact___links {
@@ -210,17 +258,25 @@
 .social___link {
   position: relative;
   z-index: 99999;
+<<<<<<< HEAD
 }
 
 .social___link h2::after {
   content: '.';
+=======
+  margin-right: 10px;
+>>>>>>> cee899f (project and style update to the site)
 }
 
 .___section.projects {
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
   gap: 0.75rem;
+<<<<<<< HEAD
   margin-top: 2rem;
+=======
+  margin-top: 4.4rem;
+>>>>>>> cee899f (project and style update to the site)
   opacity: 0;
   pointer-events: none;
   position: relative;

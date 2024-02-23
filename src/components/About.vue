@@ -2,6 +2,10 @@
   <section class="___section about">
     <div class="about___text___container">
       <h2 class="header___text desc">
+<<<<<<< HEAD
+=======
+        <span class="space"></span>
+>>>>>>> cee899f (project and style update to the site)
         <span>
           At Off—Edge, we are more than just a design agency. Our mission is to craft digital
           experiences that transcend the ordinary, weaving together the power of design and code to

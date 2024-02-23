@@ -1,7 +1,7 @@
 <template>
   <section class="___section contact display" ref="contact" v-if="contactsOpened">
     <div class="contact___text">
-      <h2 class="header___text contact___main___text">Want to give us a brief of your project?</h2>
+      <h2 class="header___text contact___main___text">Contact us.</h2>
       <div class="contact___links">
         <div class="display___flex">
           <SocialLink link="mailto:offedgestudio@gmail.com" placeholder="Email" />

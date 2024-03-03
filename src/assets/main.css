@@ -39,6 +39,10 @@
   gap: 20px;
 }
 
+.booking {
+  width: 100%;
+}
+
 .nav___link h1,
 .___time {
   font-family: Inter-Bold, sans-serif;
@@ -178,7 +182,7 @@
 
 @media (min-width: 900px) {
   .contact___text {
-    width: 35%;
+    width: 100%;
   }
 }
 
@@ -215,6 +219,13 @@
   display: inline-block;
   /* position: absolute;
   right: 0; */
+}
+
+.booking___btn {
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  background-color: #222222;
+  padding: 5px 10px;
 }
 
 .display___flex {

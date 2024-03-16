@@ -10,6 +10,12 @@
           image="/model88e-logotype.jpg"
         />
         <Project
+          title="Manfitter"
+          category="Fashion"
+          link="https://www.manfitter.co.uk"
+          image="/manfitter-logotype.png"
+        />
+        <Project
           title="Adam Small"
           category="Fashion"
           link="https://www.behance.net/gallery/169930709/By-Adam-Small-Products-Page"
@@ -17,7 +23,7 @@
         />
         <Project
           title="HeyGen"
-          category="AI web design"
+          category="AI"
           link="https://www.behance.net/gallery/170306227/HeyGen-UNFINISHED-VENTURE"
           image="/cover-two.png"
         />

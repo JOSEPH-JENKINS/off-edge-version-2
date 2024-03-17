@@ -9,7 +9,9 @@
         </span>
         <span
           >Discover why we're the premier choice for unleashing your brand's creativity online.
-          <span class="differ___text">Get in touch with us!</span></span
+          <span class="differ___text"
+            >Hit the contact button to get in touch with us now!</span
+          ></span
         >
       </h2>
     </div>

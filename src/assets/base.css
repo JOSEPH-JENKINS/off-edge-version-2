@@ -16,9 +16,14 @@
   src: url('./Inter-Regular.ttf');
 }
 
+@font-face {
+  font-family: Playfair-Italic;
+  src: url('./PlayfairDisplay-MediumItalic.ttf');
+}
+
 :root {
-  --color-background: #000;
-  --color-text: #fafafa;
+  --color-background: #fafafa;
+  --color-text: #000;
   --header-font: Inter-Reg, sans-serif;
 }
 

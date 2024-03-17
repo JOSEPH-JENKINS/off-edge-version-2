@@ -1,7 +1,9 @@
 <template>
   <section class="___section projects display" ref="projects" v-if="projectsOpened">
     <div class="contain___elements">
-      <h1 class="header___text project___head">Selected Projects</h1>
+      <h1 class="header___text project___head">
+        Some of our projects <span class="project___count differ___text">(4)</span>
+      </h1>
       <div class="projects___list">
         <Project
           title="Model88E"

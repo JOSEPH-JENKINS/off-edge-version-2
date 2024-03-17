@@ -14,7 +14,6 @@
           <SocialLink link="mailto:offedgestudio@gmail.com" placeholder="Email" />
           <SocialLink link="https://www.facebook.com/offedgestudio" placeholder="Facebook" />
           <SocialLink link="https://www.instagram.com/off___edge" placeholder="Instagram" />
-          <SocialLink link="https://www.linkedin.com/company/off-edge" placeholder="Linkedin" />
           <SocialLink link="https://www.twitter.com/off___edge" placeholder="Twitter" />
         </div>
       </div>

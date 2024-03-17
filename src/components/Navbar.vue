@@ -1,10 +1,10 @@
 <template>
   <section class="___section nav___flex">
     <div class="nav___div">
-      <a class="nav___link pointer header___text" @click="openProjects">
+      <a class="nav___link nav___text pointer header___text" @click="openProjects">
         <h1>Projects</h1>
       </a>
-      <a class="nav___link pointer header___text" @click="openContacts">
+      <a class="nav___link nav___text pointer header___text" @click="openContacts">
         <h1>Contact</h1>
       </a>
     </div>

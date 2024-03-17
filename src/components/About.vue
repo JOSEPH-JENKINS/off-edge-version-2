@@ -4,13 +4,12 @@
       <h2 class="header___text desc">
         <span class="space"></span>
         <span>
-          At Off—Edge, we are more than just a design agency. Our mission is to craft digital
-          experiences that transcend the ordinary, weaving together the power of design and code to
-          create extraordinary results.
+          Stop blending in with the masses and start standing out. Say hello to unique,
+          high-converting websites.
         </span>
         <span
-          >With a passion for aesthetics and a deep understanding of technology, we harness the
-          potential of design to unlock limitless possibilities.</span
+          >Discover why we're the premier choice for unleashing your brand's creativity online.
+          <span class="differ___text">Get in touch with us!</span></span
         >
       </h2>
     </div>

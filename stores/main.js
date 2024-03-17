@@ -3,8 +3,8 @@ import { defineStore } from 'pinia'
 export const useStore = defineStore('sections_state', {
   state() {
     return {
-      contactsOpened: true,
-      projectsOpened: false
+      contactsOpened: false,
+      projectsOpened: true
     }
   },
   actions: {

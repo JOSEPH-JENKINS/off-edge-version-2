@@ -20,7 +20,7 @@
   justify-content: space-between;
   align-items: flex-end;
 
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1));
+  /* background: linear-gradient(rgba(255, 255, 255, 0), rgba(248, 248, 248, 0.5), rgb(214, 214, 214)); */
 }
 
 .nav___link.active {
@@ -45,8 +45,13 @@
 
 .nav___link h1,
 .___time {
-  font-family: Inter-Bold, sans-serif;
-  font-size: 1.45rem;
+  /* font-family: Inter-Reg, sans-serif !important; */
+  font-size: 1.25rem;
+  mix-blend-mode: multiply;
+}
+
+.differ___text {
+  font-family: Playfair-Italic, sans-serif;
 }
 
 @media (min-width: 900px) {
@@ -57,7 +62,7 @@
 }
 
 .space {
-  margin-right: 80px;
+  margin-right: 60px;
 }
 
 .header___text {
@@ -190,16 +195,6 @@
   font-size: 1.3rem;
 }
 
-.header___text.colored {
-  color: #a19898;
-}
-
-@media (min-width: 900px) {
-  .header___text.smaller {
-    font-size: 1.3rem;
-  }
-}
-
 .header___text.small {
   font-size: 1rem;
 }
@@ -210,9 +205,8 @@
 
 .contact___main___text {
   margin-bottom: 0.75rem;
-  font-size: 1.4rem;
+  font-size: 1.25rem;
   font-weight: medium;
-  color: #a19898;
 }
 
 .contact___links {
@@ -224,7 +218,9 @@
 .booking___btn {
   display: inline-block;
   margin-bottom: 0.75rem;
-  background-color: #222222;
+  background-color: #0000ff;
+  /* font-family: Inter-Bold, sans-serif; */
+  color: white;
   padding: 5px 10px;
 }
 
@@ -242,7 +238,7 @@
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
   gap: 0.75rem;
-  margin-top: 4.4rem;
+  margin-top: 7.8rem;
   opacity: 0;
   pointer-events: none;
   position: relative;
@@ -277,7 +273,7 @@
 .project___img {
   height: auto;
   width: 100%;
-  background: #181818;
+  /* background: #181818; */
   margin-bottom: 0.75rem;
 }
 
@@ -295,6 +291,8 @@
 
 .project___head {
   margin-bottom: 0.75rem;
+  width: 100%;
+  text-align: center;
 }
 
 .project___details {

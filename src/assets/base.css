@@ -21,19 +21,28 @@
   src: url('./PlayfairDisplay-MediumItalic.ttf');
 }
 
+@font-face {
+  font-family: Playfair-Med;
+  src: url('./PlayfairDisplay-Medium.ttf');
+}
+
+@font-face {
+  font-family: Meloriac;
+  src: url('./Meloriac Regular.ttf');
+}
+
 :root {
-  --color-background: #fafafa;
-  --color-text: #000;
+  --color-background: #002868;
+  --color-text: #fafafa;
   --header-font: Inter-Reg, sans-serif;
 }
 
 ::-webkit-scrollbar {
-  background: none;
+  display: none;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #e9e9e9;
-  border-radius: 100px;
+  background: #001330;
 }
 
 body {

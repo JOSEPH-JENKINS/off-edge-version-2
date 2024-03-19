@@ -15,10 +15,7 @@
       </h2>
     </div>
     <div class="about___button">
-      <a
-        @click="handleClick"
-        class="booking___btn"
-        href="https://calendar.app.google/CPECws29tbeW6Hye8"
+      <a @click="handleClick" class="booking___btn" href="https://tinyurl.com/offedgecalendar"
         >Book an appointment now</a
       >
     </div>

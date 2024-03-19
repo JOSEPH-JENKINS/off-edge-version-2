@@ -15,5 +15,23 @@
         >
       </h2>
     </div>
+    <div class="about___button">
+      <a
+        @click="handleClick"
+        class="booking___btn"
+        href="https://calendar.app.google/CPECws29tbeW6Hye8"
+        >Book an appointment now</a
+      >
+    </div>
   </section>
 </template>
+
+<script>
+export default {
+  methods: {
+    handleClick() {
+      fbq('track', 'Booked', { value: 'yes' })
+    }
+  }
+}
+</script>

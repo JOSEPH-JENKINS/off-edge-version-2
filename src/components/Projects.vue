@@ -1,10 +1,14 @@
 <template>
   <section class="___section projects display" ref="projects" v-if="projectsOpened">
     <div class="contain___elements">
-      <h1 class="header___text project___head">
-        Some of our projects <span class="project___count differ___text">(4)</span>
-      </h1>
+      <h1 class="header___text project___head">Some of our projects</h1>
       <div class="projects___list">
+        <Project
+          title="Adam Small"
+          category="Fashion"
+          link="https://www.behance.net/gallery/169930709/By-Adam-Small-Products-Page"
+          image="/cover-one.png"
+        />
         <Project
           title="Manfitter"
           category="Fashion"
@@ -16,13 +20,6 @@
           category="Fashion"
           link="https://www.model88e.com"
           image="/model88e-logotype.jpg"
-        />
-
-        <Project
-          title="Adam Small"
-          category="Fashion"
-          link="https://www.behance.net/gallery/169930709/By-Adam-Small-Products-Page"
-          image="/cover-one.png"
         />
         <Project
           title="HeyGen"

@@ -51,13 +51,13 @@
 }
 
 .differ___text {
-  font-family: Playfair-Italic, sans-serif;
+  font-family: Inconsolata, sans-serif;
 }
 
 @media (min-width: 900px) {
   .nav___link h1,
   .___time {
-    font-size: 1.25rem;
+    font-size: 1.25rem !important;
   }
 }
 
@@ -66,19 +66,29 @@
 }
 
 .header___text.sub___head {
-  font-size: 1.3em;
+  font-size: 1.125em;
+  font-family: Inconsolata, sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .header___text {
   font-family: Inter-Reg, sans-serif;
-  font-size: 1em;
-  letter-spacing: -0.03em;
-  line-height: 98.52%;
+  font-size: 0.85em;
+  letter-spacing: -0.009em;
+  line-height: 150.52%;
   text-align: center;
 }
 
+@media (min-width: 900px) {
+  .header___text {
+    font-size: 0.9em;
+  }
+}
+
 .header___text.desc {
-  font-family: Playfair-Med, sans-serif;
+  font-family: Inconsolata, sans-serif;
+  font-weight: 300;
 }
 
 .main___heading___wrapper {
@@ -90,7 +100,7 @@
 }
 
 .main___heading {
-  font-family: Inter-Bold, sans-serif;
+  font-family: Rubik, sans-serif;
   font-size: 1.6em;
   text-transform: uppercase;
 }
@@ -263,8 +273,9 @@
 .booking___btn {
   display: inline-block;
   margin-bottom: 0.75rem;
-  background-color: #0000ff;
+  background-color: #bf0a30;
   /* font-family: Inter-Bold, sans-serif; */
+  font-family: Inconsolata, sans-serif;
   color: white;
   padding: 5px 10px;
   font-size: 1rem;
@@ -345,6 +356,9 @@
   margin-bottom: 0.75rem;
   width: 100%;
   text-align: center;
+  font-family: Rubik, sans-serif;
+  font-size: 1.2em;
+  text-transform: uppercase;
 }
 
 .project___details {

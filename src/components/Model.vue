@@ -16,7 +16,7 @@ export default {
   name: 'Model',
   data() {
     return {
-      color: 0xffffff
+      color: 0x191970
     }
   },
   methods: {

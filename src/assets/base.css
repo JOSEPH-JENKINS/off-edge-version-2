@@ -17,18 +17,23 @@
 }
 
 @font-face {
+  font-family: Inconsolata;
+  src: url('./Inconsolata.otf');
+}
+
+@font-face {
   font-family: Playfair-Italic;
   src: url('./PlayfairDisplay-MediumItalic.ttf');
 }
 
 @font-face {
   font-family: Playfair-Med;
-  src: url('./PlayfairDisplay-Medium.ttf');
+  src: url('./PlayfairDisplay-Regular.ttf');
 }
 
 @font-face {
-  font-family: Meloriac;
-  src: url('./Meloriac Regular.ttf');
+  font-family: Rubik;
+  src: url('./RubikMonoOne-Regular.ttf');
 }
 
 :root {

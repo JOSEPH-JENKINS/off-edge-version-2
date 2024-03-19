@@ -6,17 +6,18 @@
       </h1>
       <div class="projects___list">
         <Project
-          title="Model88E"
-          category="Fashion"
-          link="https://www.model88e.com"
-          image="/model88e-logotype.jpg"
-        />
-        <Project
           title="Manfitter"
           category="Fashion"
           link="https://www.manfitter.co.uk"
           image="/manfitter-logotype.png"
         />
+        <Project
+          title="Model88E"
+          category="Fashion"
+          link="https://www.model88e.com"
+          image="/model88e-logotype.jpg"
+        />
+
         <Project
           title="Adam Small"
           category="Fashion"

@@ -1,51 +1,33 @@
 <template>
-  <section class="___section projects display" ref="projects" v-if="projectsOpened">
-    <div class="contain___elements">
-      <h1 class="header___text project___head">Some of our projects</h1>
-      <div class="projects___list">
-        <Project
-          title="Adam Small"
-          category="Fashion"
-          link="https://www.behance.net/gallery/169930709/By-Adam-Small-Products-Page"
-          image="/cover-one.png"
-        />
-        <Project
-          title="Manfitter"
-          category="Fashion"
-          link="https://www.manfitter.co.uk"
-          image="/manfitter-logotype.png"
-        />
-        <Project
-          title="Model88E"
-          category="Fashion"
-          link="https://www.model88e.com"
-          image="/model88e-logotype.jpg"
-        />
-        <Project
-          title="HeyGen"
-          category="AI"
-          link="https://www.behance.net/gallery/170306227/HeyGen-UNFINISHED-VENTURE"
-          image="/cover-two.png"
-        />
-      </div>
+  <section class="projects section-padded" id="projects">
+    <div class="proj">
+      <a
+        href="https://www.instagram.com/p/CvWrs3PMXyU/?igsh=bGY4Z2VmOGt1NnI0"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div class="proj-img">
+          <img src="/monolith.webp" alt="Monolith Digital Agency" />
+        </div>
+      </a>
+    </div>
+    <div class="proj">
+      <a href="https://www.manfitter.co.uk" target="_blank" rel="noopener noreferrer">
+        <div class="proj-img">
+          <img src="/manfitter.webp" alt="Manfitter" />
+        </div>
+      </a>
+    </div>
+    <div class="proj">
+      <a
+        href="https://www.instagram.com/p/Cvav7REr4hJ/?igsh=MTR6bDJjZTFkMzJxbQ=="
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div class="proj-img">
+          <img src="/nicholas-baker.webp" alt="Nicholas Baker" />
+        </div>
+      </a>
     </div>
   </section>
 </template>
-
-<script>
-import { useStore } from '../../stores/main'
-import { storeToRefs } from 'pinia'
-import Project from './Project.vue'
-
-export default {
-  setup() {
-    const store = useStore()
-    const { projectsOpened } = storeToRefs(store)
-
-    return { store, projectsOpened }
-  },
-  components: {
-    Project
-  }
-}
-</script>

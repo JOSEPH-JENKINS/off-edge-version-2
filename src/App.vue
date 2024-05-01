@@ -1,15 +1,28 @@
 <template>
-  <!-- <Preloader v-if="isLoading" :loadingPercent="loadingPercentage" /> -->
-  <Main></Main>
+  <Navbar />
+  <Hero />
+  <Projects />
+  <Problem />
+  <Benefits />
+  <Proof />
+  <FAQ />
 </template>
 
 <script>
 import Lenis from '@studio-freight/lenis'
 import { defineAsyncComponent } from 'vue'
+import Navbar from './components/Navbar.vue'
+import Hero from './components/Hero.vue'
 
 export default {
   components: {
-    Main: defineAsyncComponent(() => import('./components/Main.vue'))
+    Hero,
+    Navbar,
+    Projects: defineAsyncComponent(() => import('./components/Projects.vue')),
+    Problem: defineAsyncComponent(() => import('./components/Problem.vue')),
+    Benefits: defineAsyncComponent(() => import('./components/Benefits.vue')),
+    Proof: defineAsyncComponent(() => import('./components/Proof.vue')),
+    FAQ: defineAsyncComponent(() => import('./components/FAQ.vue'))
   },
   mounted() {
     this.lenis = new Lenis({

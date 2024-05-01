@@ -13,7 +13,7 @@
             <h2 class="medium---text"><a href="#projects">Projects</a></h2>
           </li>
           <li>
-            <h2 class="medium---text"><a href="/faq">FAQ</a></h2>
+            <h2 class="medium---text"><a href="#faq">FAQ</a></h2>
           </li>
         </ul>
       </div>
